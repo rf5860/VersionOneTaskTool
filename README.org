@@ -1,3 +1,4 @@
 * VersionOne Task Tool
   Simplifies creating and deleting tasks in version one
-  [[file:img/eg.gif][Example]] 
+
+  [[img/eg.gif]]
