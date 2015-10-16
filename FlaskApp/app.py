@@ -79,7 +79,7 @@ def process():
     _user = request.form['inputUser']
     _password = request.form['inputPassword']
     _action = request.form['action']
-    logger.info('Processing [%s] with [%s]-[%s]-[%s]', _action, _user, _password, _assets)
+    logger.info('Processing [%s] with [%s]-[%s]', _action, _user, _assets)
     if _user and _password and (_assets or _action == 'CreateAll'):
         if _action == 'Delete':
             logger.info('Deleting tasks for [%s]', _assets)
